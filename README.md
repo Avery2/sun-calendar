@@ -1,6 +1,6 @@
 # ☀️ Sun Calendar
 
-A simple ICS calendar that shows daily sunrise & sunset times in San Francisco.  
+A simple ICS calendar that shows daily sunrise & sunset times in **San Francisco**.  
 
 ## 🗓️ Usage
 
@@ -30,4 +30,5 @@ Sunrise and Sunset times for the current week should appear in your calendar lik
     - Uses isc python library https://icspy.readthedocs.io/en/stable/
 - The isc file is exposed by hosting on GH pages
 - If you want to use a different location, just change the lat and long coords in `create_calendar_local.py`
+    - (if you want it to auto-update, you'll have to fork this and host it on your own github pages)
 
