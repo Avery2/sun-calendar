@@ -12,7 +12,7 @@ webcal://www.averychan.site/sun-calendar/sun.ics
 
 Sunrise and Sunset times for the current week should appear in your calendar like this:
 
-<img src="https://github.com/user-attachments/assets/b74367bc-9a3c-44dd-b00d-57a810d2285f" style="width: 500px" alt="example calendar view">
+<img src="https://github.com/user-attachments/assets/b74367bc-9a3c-44dd-b00d-57a810d2285f" style="height: 50vh" alt="example calendar view">
 
 <details>
     <summary>Google Calendar instructions</summary>
