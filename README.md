@@ -17,7 +17,7 @@ Sunrise and Sunset times for the current week should appear in your calendar lik
 <img src="https://github.com/user-attachments/assets/b74367bc-9a3c-44dd-b00d-57a810d2285f" style="height: 50vh" alt="example calendar view">
 
 <details>
-    <summary>For Google Calendar to to: https://calendar.google.com/calendar/u/0/r/settings/addbyurl</summary>
+    <summary>e.g. For Google Calendar to to: https://calendar.google.com/calendar/u/0/r/settings/addbyurl</summary>
     <div>
         <br>
         <img src="https://github.com/user-attachments/assets/508cacad-239e-49fa-8e87-ab9bdcb27abb" style="height: 50vh" />
