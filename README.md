@@ -12,7 +12,7 @@ Subscribe to this link ("by URL") in your calendar app:
 webcal://www.averychan.site/sun-calendar/sun.ics
 ```
 
-& If you fork it for yourself, your URL will be different
+👆 If you fork it for yourself, your URL will be different
 
 Sunrise and Sunset times for the current week should appear in your calendar like this:
 
