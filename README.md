@@ -36,3 +36,4 @@ Sunrise and Sunset times for the current week should appear in your calendar lik
 - If you want to use a different location, change the lat and long coordinates in `create_calendar_local.py`
     - You can get the lat and long coordinates from google maps by right clicking
     - If you want it to auto-update, you'll have to fork this and host it on your own github pages. You'll have to update the workflow file to point to your repo too.
+- This only loads data for a week and it runs a cron job every three days to stay updated using GitHub workflows.
