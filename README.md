@@ -1,4 +1,4 @@
-# ☀️ Sun Calendar
+# ☀️ Automatically updated sunrise/sunset calendar (ICS)
 
 [//]: # (Comment so I can update the file to trigger activity: .)
 
