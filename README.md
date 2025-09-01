@@ -32,6 +32,7 @@ Sunrise and Sunset times for the current week should appear in your calendar lik
     - Uses this awesome free sun API: https://sunrise-sunset.org/api
     - Uses isc python library https://icspy.readthedocs.io/en/stable/
 - The isc file is exposed by hosting on GH pages
-- If you want to use a different location, just change the lat and long coordinates in `create_calendar_local.py`
+- Location is set to San Francisco by default
+- If you want to use a different location, change the lat and long coordinates in `create_calendar_local.py`
     - You can get the lat and long coordinates from google maps by right clicking
     - If you want it to auto-update, you'll have to fork this and host it on your own github pages. You'll have to update the workflow file to point to your repo too.
