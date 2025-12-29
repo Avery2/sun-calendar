@@ -4,6 +4,8 @@
 
 A simple ICS calendar that shows daily sunrise & sunset times in **San Francisco**.  
 
+Github: https://github.com/Avery2/sun-calendar
+
 ## 🗓️ Usage
 
 Subscribe to this link ("by URL") in your calendar app: 
