@@ -5,8 +5,7 @@ import pytz
 
 def get_sun_events(current_date):
     # API call for sunrise and sunset times in San Francisco, CA
-    sun_times_url = f"https://api.sunrise-sunset.org/json?lat=37.7749000&lng=-122.4194000&date={current_date}"
-    sun_times_url += f"&date={current_date}"
+    sun_times_url = f"https://api.sunrise-sunset.org/json?lat=37.7749000&lng=-122.4194000&date={current_date}&formatted=0"
     print(f"sun_times_url: {sun_times_url}")
 
     response = requests.get(sun_times_url)
@@ -20,17 +19,12 @@ def get_sun_events(current_date):
     else:
         print(f"Failed to retrieve data. Status code: {response.status_code}")
 
-    time_format = "%I:%M:%S %p"  # format that matches the time strings in the response
-    year, month, day = map(int, current_date.split('-'))
     # Convert the strings to datetime objects
     datetime_objects = {
-        key: datetime.strptime(value, time_format).replace(tzinfo=pytz.utc)
+        key: datetime.fromisoformat(value)  # full UTC timestamp, e.g. 2026-10-26T01:19:12+00:00
         for key, value in response_json['results'].items()
-        if key != 'day_length'  # 'day_length' doesn't match the time format
+        if key != 'day_length'  # 'day_length' is a number of seconds
     }
-
-    for key, dt_obj in datetime_objects.items():
-        datetime_objects[key] = dt_obj.replace(year=year, month=month, day=day)
 
     calendar_time_format = "%Y-%m-%d %H:%M:%S"
 
